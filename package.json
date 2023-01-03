@@ -1,0 +1,29 @@
+{
+  "name": "hybridiz-typeorm",
+  "version": "0.0.3",
+  "description": "Provide graphQl functionality to an API based on a CRUD architecture.",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boboPrem1/hybrid-typeorm.git"
+  },
+  "author": "kin_yubi",
+  "license": "MIT",
+  "private": false,
+  "files": ["lib/**/*"],
+  "bugs": {
+    "url": "https://github.com/boboPrem1/hybrid-typeorm/issues"
+  },
+  "homepage": "https://github.com/boboPrem1/hybrid-typeorm#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.2.1",
+    "typeorm": "^0.3.11"
+  }
+}
